@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { Button } from "../ui/button";
 import MenuBar from "./MenuBar";
+import SerarchBar from "./SearchBar";
 
 const NavBar = () => {
   const menus = [
@@ -16,15 +17,15 @@ const NavBar = () => {
     <nav className="bg-white shadow-lg">
       <div className="flex justify-between items-center py-4 container">
         {/* Nav right side */}
-        
+
         <div className="flex items-center">
           {/* Hamburger */}
-          
 
           <MenuBar />
           {/* Logo */}
-          <div className="text-3xl font-bold"><span className="text-[#00a419]">e</span>Cars</div>
-        
+          <div className="text-3xl font-bold">
+            <span className="text-[#00a419]">e</span>Cars
+          </div>
 
           {/* Menu Links */}
           <ul className="lg:flex md:hidden hidden">
@@ -40,7 +41,7 @@ const NavBar = () => {
         <div className="flex items-center">
           <ul className="flex items-center">
             <li className="mr-4">
-              <Search />
+              <SerarchBar />
             </li>
             <li className="mr-4 lg:block md:block hidden">
               <Heart />

@@ -20,12 +20,9 @@ const MenuBar = () => {
   return (
     <Sheet>
       <SheetTrigger>
-        <Button
-          variant="outline"
-          className="lg:hidden md:block block md:mr-8 mr-4"
-        >
+        <div className="lg:hidden md:block block md:mr-8 mr-4">
           <Menu />
-        </Button>
+        </div>
       </SheetTrigger>
 
       {/* Shhet content */}
