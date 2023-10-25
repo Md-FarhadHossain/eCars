@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <section>
       <Image
-        className="w-full pointer-events-none"
+        className="w-full pointer-events-none select-none"
         src={hero}
         alt="hero iamge"
       ></Image>
