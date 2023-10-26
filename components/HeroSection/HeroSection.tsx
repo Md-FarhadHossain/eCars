@@ -3,10 +3,11 @@ import React from "react";
 import hero from "../../public/hero-image.png";
 import { Button } from "../ui/button";
 import { Mail, PhoneCall } from "lucide-react";
+import './HeroSection.css'
 
 const HeroSection = () => {
   return (
-    <section>
+    <section id="hero_section">
       <Image
         className="w-full pointer-events-none select-none"
         src={hero}
